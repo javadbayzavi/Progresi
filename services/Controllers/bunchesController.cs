@@ -1,4 +1,4 @@
-﻿using services.Models;
+using services.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +8,9 @@ using System.Web.Http;
 
 namespace services.Controllers
 {
-    public class bunches : ApiController
+    public class bunchesController : ApiController
     {
-        // GET api/<controller>
+        // GET api/bunches
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
@@ -38,9 +38,14 @@ namespace services.Controllers
         }
 
         //get the list of all projects of user
-        public IEnumerable<progresi_bunches> getProjects(string id,string session)
+        public IEnumerable<progresi_bunches> getProjects(string uid,string session)
         {
             return null;
+        }
+        //get specific instance of a project
+        public progresi_bunches getProject(int id,string uid,string session)
+        {
+          return null;
         }
     }
 }
