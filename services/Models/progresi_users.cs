@@ -5,10 +5,11 @@ using System.Web;
 
 namespace services.Models
 {
-  public class progresi_bunches
+  public class progresi_users
   {
         public int Id { set; get; }
-        public string title { get; set; }
-        public string tips { get; set; }
+        public string name { get; set; }
+        public string family { get; set; }
+        public string username { get; set; }
     }
 }

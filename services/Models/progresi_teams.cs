@@ -5,7 +5,7 @@ using System.Web;
 
 namespace services.Models
 {
-  public class progresi_bunches
+  public class progresi_teams
   {
         public int Id { set; get; }
         public string title { get; set; }
