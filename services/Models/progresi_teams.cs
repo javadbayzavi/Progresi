@@ -10,5 +10,10 @@ namespace services.Models
         public int Id { set; get; }
         public string title { get; set; }
         public string tips { get; set; }
-    }
+        
+        //Navigation members
+        public progresi_bunches bunches { get; set; }
+        public int buinch_id { get; set; }
+      
+  }
 }
