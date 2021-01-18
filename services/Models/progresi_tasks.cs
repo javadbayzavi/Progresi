@@ -17,5 +17,7 @@ namespace services.Models
         //Navigation members
         public progresi_bunches bunches { get; set; }
         public int buinch_id { get; set; }
+
+        public ICollection<progresi_categories> categories { get; set; }
     }
 }
