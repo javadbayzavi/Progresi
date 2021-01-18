@@ -10,7 +10,7 @@ namespace services.Models
 {
   public class progresi_bunch_categories
   {
-        [Key]
+        [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { set; get; }
 
         [ForeignKey("category_id")]
