@@ -301,12 +301,19 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\bunches.cs" />
+    <Compile Include="Controllers\tasksController.cs" />
+    <Compile Include="Controllers\stagesController.cs" />
+    <Compile Include="Controllers\projectsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BunchdbContext.cs" />
+    <Compile Include="Models\progresi_task_assign.cs" />
+    <Compile Include="Models\progresi_user_teams.cs" />
+    <Compile Include="Models\progresi_task_categories.cs" />
+    <Compile Include="Models\progresi_bunch_categories.cs" />
     <Compile Include="Models\progresi_users.cs" />
     <Compile Include="Models\progresi_teams.cs" />
     <Compile Include="Models\progresi_categories.cs" />
