@@ -18,5 +18,8 @@ namespace services.Models
         public int last_access { get; set; }
         public int create_date { get; set; }
         public int status { get; set; }
+
+        public ICollection<progresi_user_teams> teams { get; set; }
+        public ICollection<progresi_task_assign> tasks { get; set; }
     }
 }

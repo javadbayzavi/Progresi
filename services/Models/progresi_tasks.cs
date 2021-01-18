@@ -22,5 +22,6 @@ namespace services.Models
         public int buinch_id { get; set; }
 
         public ICollection<progresi_categories> categories { get; set; }
+        public ICollection<progresi_task_assign> users { get; set; }
     }
 }
