@@ -21,6 +21,9 @@ namespace services.Models
         
         public virtual DbSet<progresi_stages_tasks> progresi_stages_tasks { get; set; }
         public virtual DbSet<progresi_bunch_categories> progresi_bunch_categories { get; set; }
+        public virtual DbSet<progresi_task_assigns> progresi_task_assigns { get; set; }
+        public virtual DbSet<progresi_task_categories> progresi_task_categories { get; set; }
+        public virtual DbSet<progresi_user_teams> progresi_user_teams { get; set; }
         
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

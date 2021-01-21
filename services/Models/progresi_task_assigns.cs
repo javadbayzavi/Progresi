@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace services.Models
 {
-  public class progresi_task_assign
+  public class progresi_task_assigns
   {
         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { set; get; }
