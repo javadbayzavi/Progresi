@@ -13,8 +13,9 @@ namespace services.Models
         public int Id { get; set; }
         public string title { get; set; }
         public string tips { get; set; }
-        public int order { get; set; }
-
+        public int predesessor { get; set; }
+        public int sucessor { get;  set; }
+        
         //Navigation members
         public progresi_bunches bunches { get; set; }
         public int buinch_id { get; set; }
