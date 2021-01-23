@@ -19,7 +19,7 @@ namespace services.Models
         public virtual DbSet<progresi_teams> progresi_teams { get; set; }
         public virtual DbSet<progresi_users> progresi_users { get; set; }
         
-        public virtual DbSet<progresi_stages_tasks> progresi_stages_tasks { get; set; }
+        public virtual DbSet<progresi_stage_tasks> progresi_stage_tasks { get; set; }
         public virtual DbSet<progresi_bunch_categories> progresi_bunch_categories { get; set; }
         public virtual DbSet<progresi_task_assigns> progresi_task_assigns { get; set; }
         public virtual DbSet<progresi_task_categories> progresi_task_categories { get; set; }
@@ -27,6 +27,7 @@ namespace services.Models
         
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            Database.SetInitializer<progresiDataProxy>(null);
         }
 
     }

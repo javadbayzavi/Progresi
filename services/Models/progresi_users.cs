@@ -20,6 +20,6 @@ namespace services.Models
         public int status { get; set; }
 
         public ICollection<progresi_user_teams> teams { get; set; }
-        public ICollection<progresi_task_assign> tasks { get; set; }
+        public ICollection<progresi_task_assigns> tasks { get; set; }
     }
 }

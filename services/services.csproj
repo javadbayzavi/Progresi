@@ -309,8 +309,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\BunchdbContext.cs" />
-    <Compile Include="Models\progresi_task_assign.cs" />
+    <Compile Include="Models\progresiDataProxy.cs" />
+    <Compile Include="Models\progresi_stage_tasks.cs" />
+    <Compile Include="Models\progresi_task_assigns.cs" />
     <Compile Include="Models\progresi_user_teams.cs" />
     <Compile Include="Models\progresi_task_categories.cs" />
     <Compile Include="Models\progresi_bunch_categories.cs" />
